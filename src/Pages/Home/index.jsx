@@ -52,9 +52,9 @@ function index  ({prod,idx,count,setCount}){
         )} */}
 
  {!show ? ( 
-        <button className="btn btn-outline-dark mt-auto"  onClick={removeFromCart}>Add to cart</button>
+        <button className="btn btn-outline-dark mt-auto"  onClick={addToCart}>Add to cart</button>
         ):(
-            <button className="btn btn-outline-dark mt-auto"  onClick={addToCart}>Remove From cart</button>
+            <button className="btn btn-outline-dark mt-auto"  onClick={removeFromCart}>Remove From cart</button>
         )}
 
 
